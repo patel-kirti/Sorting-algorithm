@@ -57,7 +57,7 @@ def bubble_sort(list1):
 ARRAY_LENGTH = 10000
 # list1 = random.sample(range(0, 8000), 8000)  # Random generate list..
 
-list1 = input('Enter the list of numbers: ').split()  # User Input...
+list1 = input('Enter the list of numbers: ').split()
 list1 = [int(x) for x in list1]
 bubble_sort(list1)
 print('Sorted list: ', end='')
