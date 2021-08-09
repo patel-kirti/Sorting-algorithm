@@ -46,7 +46,7 @@ def cycle_sort(list1):
 ARRAY_LENGTH = 10000
 
 list1 = random.sample(range(0, 8000), 100)
-# list1=input("Enter list :- ").split()
+# list1=input("Enter list :- ").split() 
 list1 = [int(x) for x in list1]
 cycle_sort(list1)
 print(list1)
