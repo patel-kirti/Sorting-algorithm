@@ -54,7 +54,7 @@ def pigeohole_sort(l):
     return l
 
 ARRAY_LENGTH=10000
-# l=random.sample(range(0,8000),100)
+# l=random.sample(range(0,8000),100)  # Randomly generated list
 l = input("Enter list :- ").split()
 l = [int(x) for x in l]
 pigeohole_sort(l)
