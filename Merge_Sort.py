@@ -52,5 +52,5 @@ list = random.sample(range(0, 8000), 100)  # Random generate list..
 # merge_sort(list, 0, len(list)-1)
 print(list)
 
-array = [randint(0, 1000) for i in range(ARRAY_LENGTH)]
+array = [randint(0, 1000) for i in range(ARRAY_LENGTH)] 
 run_sorting_algorithm(algorithm="sorted", array=array)
