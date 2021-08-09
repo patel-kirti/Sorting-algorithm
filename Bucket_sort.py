@@ -42,8 +42,8 @@ def Bucket_sort(list, n):
 
 
 ARRAY_LENGTH = 10000
-# list=random.sample(range(0,8000),100)
-list = input('Enter the list of numbers: ').split()   # User Input
+# list=random.sample(range(0,8000),100)  # Random generated list
+list = input('Enter the list of numbers: ').split()   
 list = [int(x) for x in list]
 n = 5
 Bucket_sort(list, n)
