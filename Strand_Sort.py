@@ -61,8 +61,8 @@ def strand_sort(l):
 
 
 ARRAY_LENGTH = 10000
-# l = random.sample(range(0, 8000), 100)
-l = input('Enter the list of numbers: ').split()   # USe Input..
+# l = random.sample(range(0, 8000), 100)  # Randomly generated list
+l = input('Enter the list of numbers: ').split()   
 l = [int(x) for x in l]
 print(l)
 strand_sort(l)
