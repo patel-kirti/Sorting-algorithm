@@ -55,7 +55,7 @@ def shell_sort(arr):
 # arr = random.sample(range(0, 8000), 100)  # Random generate list..
 ARRAY_LENGTH = 10000
 
-arr = input('Enter the list of numbers: ').split()   # User Input
+arr = input('Enter the list of numbers: ').split()   
 arr = [int(x) for x in arr]
 shell_sort(arr)
 print('Sorted list: ', end='')
