@@ -47,7 +47,7 @@ alist = random.sample(range(0, 8000), 100)  # Random generate list..
 # alist = input('Enter the list of numbers: ').split()   # User Input
 # alist = [int(x) for x in alist]
 insertion_sort(alist)
-print('Sorted list: ', end='')
+print('Sorted list: ', end='') 
 print(alist)
 
 array = [randint(0, 1000) for i in range(ARRAY_LENGTH)]
