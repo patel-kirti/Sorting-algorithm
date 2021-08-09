@@ -103,7 +103,7 @@ def timsort(l):
 ARRAY_LENGTH = 10000
 # l = random.sample(range(0, 8000), 100)  # Random generate list..
 
-l = input('Enter the list of numbers: ').split()   # User Input
+l = input('Enter the list of numbers: ').split()   
 l = [int(x) for x in l]
 
 timsort(l)
