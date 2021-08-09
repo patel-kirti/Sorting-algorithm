@@ -29,7 +29,7 @@ def SelectionSort(list):
 ARRAY_LENGTH = 10000
 # list = random.sample(range(0, 8000), 100)  # Random generate list..
 
-list = input('Enter the list of numbers: ').split()   # USe Input..
+list = input('Enter the list of numbers: ').split()   
 list = [int(x) for x in list]
 SelectionSort(list)
 print('Sorted list: ', end='')
