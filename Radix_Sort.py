@@ -63,8 +63,8 @@ def radixSort(array):
 
 ARRAY_LENGTH = 10000
 
-# array=random.sample(range(0,800),100)
-array = input('Enter the list of numbers: ').split()   # User Input
+# array=random.sample(range(0,800),100)  # Randomly generated list
+array = input('Enter the list of numbers: ').split()   
 array = [int(x) for x in array]
 n = 5
 radixSort(array)
