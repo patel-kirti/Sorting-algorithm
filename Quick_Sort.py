@@ -33,7 +33,7 @@ def partition(list, low, high):
 ARRAY_LENGTH = 10000
 # list = random.sample(range(0, 8000), 100)  # Random generate list..
 
-list = input('Enter the list of numbers: ').split()  # User Input...
+list = input('Enter the list of numbers: ').split()  
 # n = len(list)
 QuickSort(list, 0, len(list) - 1)
 
