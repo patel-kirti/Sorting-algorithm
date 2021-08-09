@@ -55,7 +55,7 @@ def comb_sort(list1):
 # list1 = random.sample(range(0, 8000), 100)  # Random generate list..
 ARRAY_LENGTH = 10000
 
-list1 = input("Enter List :- ").split()  # User Input...
+list1 = input("Enter List :- ").split() 
 list1 = [int(x) for x in list1]
 comb_sort(list1)
 print(list1)
