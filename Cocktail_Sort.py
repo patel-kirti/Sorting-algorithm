@@ -55,10 +55,10 @@ def cocktail_sort(list1):
         if not swapp:
             return list1
 
-list1 = random.sample(range(0, 8000), 100)  # Random generate list..
+# list1 = random.sample(range(0, 8000), 100)  # Random generate list..
 ARRAY_LENGTH = 10000
 
-# list1 = input("Enter list :- ").split()
+list1 = input("Enter list :- ").split()
 list1 = [int(x) for x in list1]
 cocktail_sort(list1)
 print(list1)
