@@ -43,7 +43,7 @@ def build_max_heap(A):
 
 ARRAY_LENGTH=10000
 # A = random.sample(range(0, 8000), 100)
-A = input('Enter the list of numbers: ').split()   # User Input
+A = input('Enter the list of numbers: ').split()   # User Input 
 A = [int(x) for x in A]
 build_max_heap(A)
 print(A)
